@@ -49,6 +49,7 @@ To check the initial password, use the cat command as indicated below:
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 or
 sudo cat /home/ubuntu/.jenkins/secrets/initialAdminPassword
+(for me it is: 6b46fe22286c4032a87316381304078a)
 ```
 
 All Set! You can now start automating...
