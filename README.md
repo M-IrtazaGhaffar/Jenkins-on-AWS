@@ -47,6 +47,8 @@ With the firewall configured, it’s time to set up Jenkins itself. Type in the 
 To check the initial password, use the cat command as indicated below:
 ```bash
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+or
+sudo cat /home/ubuntu/.jenkins/secrets/initialAdminPassword
 ```
 
 All Set! You can now start automating...
